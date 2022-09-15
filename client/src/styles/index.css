@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Nunito', sans-serif;
+}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  transform: translateY(-3px);
+  border-radius: 50%;
+}
+
+/* ---------- Auth Page------------ */
+@import url('./auth.css');
+
+/* ---------- Loading Page------------ */
+@import url('./loading.css');
+
+/* ---------- Alert Page------------ */
+@import url('./alert.css');
+
+/* ---------- Profile Page------------ */
+@import url('./profile.css');
+
+/* ---------- Category Page------------ */
+@import url('./category.css');
+
+/* ---------- Home Page------------ */
+@import url('./home.css');
+
+/* ---------- Blogs Category Page------------ */
+@import url('./blogs_category.css');
+
+/* ---------- Comments ------------ */
+@import url('./comments.css');
